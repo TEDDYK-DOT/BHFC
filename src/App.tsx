@@ -502,7 +502,7 @@ function App() {
             <ul className="contact-details">
               <li>Email: hello@bhfc-demo.example</li>
               <li>Phone: <a href="tel:+27653384439">+27 65 338 4439</a></li>
-              <li>Address: North End Stadium, London</li>
+              <li>Address: 4452 Section M-D1, Mamelodi West, Pretoria 0122</li>
             </ul>
           </div>
 
