@@ -249,10 +249,7 @@ function App() {
   return (
     <div className="page-shell">
       <header className="topbar">
-        <span style={{ display: "flex", flexDirection: "column", gap: 2, maxWidth: 210, letterSpacing: 0, lineHeight: 1.1, textTransform: "none" }}><strong style={{ fontSize: ".92rem", letterSpacing: ".16em", textTransform: "uppercase" }}>BHFC</strong><small style={{ fontSize: ".58rem", color: "#dfeaf0", lineHeight: 1.2 }}>Batau Halala Family Custom</small><small style={{ fontSize: ".58rem", color: "#edb034", lineHeight: 1.2 }}>Rooted in Mamelodi. Driven to Rise.</small></span>
-          
-          <span style={{ display: "flex", flexDirection: "column", gap: 2, maxWidth: 210, letterSpacing: 0, lineHeight: 1.1, textTransform: "none" }}><strong style={{ fontSize: ".92rem", letterSpacing: ".16em", textTransform: "uppercase" }}>BHFC</strong><small style={{ fontSize: ".58rem", color: "#dfeaf0", lineHeight: 1.2 }}>Batau Halala Family Custom</small><small style={{ fontSize: ".58rem", color: "#edb034", lineHeight: 1.2 }}>Rooted in Mamelodi. Driven to Rise.</small></span>
-        </a>
+        <a className="brand" href="#home" aria-label="Batau Halala Family Custom home"><svg viewBox="0 0 52 60" aria-hidden="true" style={{ width: 46, height: 52, flexShrink: 0 }}><path d="M26 2 48 10v19c0 14-9 23-22 29C13 52 4 43 4 29V10z" fill="#edb034"/><path d="M26 7 43 13v16c0 11-7 19-17 24-10-5-17-13-17-24V13z" fill="#09161d"/><circle cx="26" cy="25" r="9" fill="#edb034"/><path d="m26 17 4 3-1 5-3 2-4-2-1-5zm-9 7 4 1 2 4-2 4-5-1-2-4zm17 0 3 4-2 4-5 1-2-4 2-4z" fill="#09161d"/><text x="26" y="47" textAnchor="middle" fontSize="8" fontWeight="900" fill="#fff">BHFC</text></svg><span style={{ display: "flex", flexDirection: "column", gap: 2, maxWidth: 210, letterSpacing: 0, lineHeight: 1.1, textTransform: "none" }}><strong style={{ fontSize: ".92rem", letterSpacing: ".16em", textTransform: "uppercase" }}>BHFC</strong><small style={{ fontSize: ".58rem", color: "#dfeaf0", lineHeight: 1.2 }}>Batau Halala Family Custom</small><small style={{ fontSize: ".58rem", color: "#edb034", lineHeight: 1.2 }}>Rooted in Mamelodi. Driven to Rise.</small></span></a>
 
         <button
           type="button"
@@ -557,10 +554,7 @@ function App() {
 
       <footer className="site-footer">
         <div>
-          <a href="#home" className="brand footer-brand">
-            
-            <svg viewBox="0 0 52 60" role="img" aria-label="Batau Halala Family Custom crest" style={{ width: 46, height: 52, flexShrink: 0 }}><path d="M26 2 48 10v19c0 14-9 23-22 29C13 52 4 43 4 29V10z" fill="#edb034"/><path d="M26 7 43 13v16c0 11-7 19-17 24-10-5-17-13-17-24V13z" fill="#09161d"/><circle cx="26" cy="25" r="9" fill="#edb034"/><path d="m26 17 4 3-1 5-3 2-4-2-1-5zm-9 7 4 1 2 4-2 4-5-1-2-4zm17 0 3 4-2 4-5 1-2-4 2-4z" fill="#09161d"/><text x="26" y="47" textAnchor="middle" fontSize="8" fontWeight="900" fill="#fff">BHFC</text></svg>
-          </a>
+          <a href="#home" className="brand footer-brand"><svg viewBox="0 0 52 60" aria-hidden="true" style={{ width: 46, height: 52, flexShrink: 0 }}><path d="M26 2 48 10v19c0 14-9 23-22 29C13 52 4 43 4 29V10z" fill="#edb034"/><path d="M26 7 43 13v16c0 11-7 19-17 24-10-5-17-13-17-24V13z" fill="#09161d"/><circle cx="26" cy="25" r="9" fill="#edb034"/><path d="m26 17 4 3-1 5-3 2-4-2-1-5zm-9 7 4 1 2 4-2 4-5-1-2-4zm17 0 3 4-2 4-5 1-2-4 2-4z" fill="#09161d"/><text x="26" y="47" textAnchor="middle" fontSize="8" fontWeight="900" fill="#fff">BHFC</text></svg><span>BHFC</span></a>
         </div>
 
         <div className="footer-links">
